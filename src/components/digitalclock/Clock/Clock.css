@@ -1,0 +1,75 @@
+.clock-component-container {
+  border-radius: 10px 10px 0 0;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 8px 8px;
+  overflow: hidden;
+}
+
+.days-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.component-container {
+  padding: 5px 0 0 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: rgb(145 255 137);
+  border: 5px rgba(243, 243, 243) solid;
+  height: 100%;
+  width: 100%;
+  gap: 5px;
+}
+
+.small .component-container {
+  padding: 2px 0 0 0;
+}
+
+.small .text-style {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.small .bottom-container {
+  font-size: 12px;
+}
+
+.small .two-digits:after {
+  font-size: 2em;
+  right: -8px;
+}
+
+.small .days-container {
+  padding-bottom: 1px;
+  gap: 6px;
+}
+
+.small .component-container {
+  gap: 0px;
+}
+
+.bottom-container {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+.bottom-container:hover {
+  cursor: pointer;
+}
+
+.digits-container {
+  height: 55%;
+  width: 80%;
+}

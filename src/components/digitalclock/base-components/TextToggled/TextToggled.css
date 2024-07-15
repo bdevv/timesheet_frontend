@@ -1,0 +1,10 @@
+.text-style {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  user-select: none;
+}
+
+.text-style.passive {
+  opacity: 0.3;
+}

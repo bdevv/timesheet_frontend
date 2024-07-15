@@ -1,0 +1,70 @@
+.digit-container {
+  display: flex;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  border: 4px transparent solid;
+  position: relative;
+}
+
+.d-shape {
+  position: absolute;
+  background-color: black;
+}
+.d-shape.passive {
+  opacity: 0.08;
+}
+
+.d1-shape {
+  width: 100%;
+  height: 11%;
+  clip-path: polygon(3% 0, 97% 0, 75% 100%, 25% 100%);
+}
+
+.d2-shape {
+  position: absolute;
+  width: 65%;
+  height: 50%;
+  clip-path: polygon(0 0, 0 100%, 40% 70%, 40% 30%);
+  top: 0;
+}
+
+.d3-shape {
+  position: absolute;
+  width: 25%;
+  height: 50%;
+  clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 70%);
+  top: 0;
+  right: 0;
+}
+
+.d4-shape {
+  width: 100%;
+  height: 20%;
+  clip-path: polygon(25% 10%, 75% 10%, 95% 40%, 75% 70%, 25% 70%, 5% 40%);
+  top: 42%;
+}
+
+.d5-shape {
+  position: absolute;
+  width: 65%;
+  height: 50%;
+  clip-path: polygon(0 0, 0 100%, 40% 70%, 40% 30%);
+  bottom: 0;
+}
+
+.d6-shape {
+  position: absolute;
+  width: 25%;
+  height: 50%;
+  clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 70%);
+  bottom: 0;
+  right: 0;
+}
+
+.d7-shape {
+  width: 100%;
+  height: 11%;
+  clip-path: polygon(25% 0, 75% 0, 97% 100%, 3% 100%);
+  bottom: 0;
+}
